@@ -7,4 +7,7 @@ def main(numbers,i):
     Returns:
         list: return answer
     """
-    return
+    deleted_number = numbers.pop(i)
+    return deleted_number
+print(main([1,2,3,4,5],2))
+print(main([4,7,3,2,8],4))
